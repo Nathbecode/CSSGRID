@@ -44,11 +44,6 @@ img {
     order: 1;
     width: 151px;
     height: 30px;
-    top: 17px;
-    left: 120px;
-    gap: 0px;
-    opacity: 0px;
-    margin-top: 17px;
 }
 
 ul {
@@ -221,10 +216,13 @@ footer {
     letter-spacing: 0.02em;
     color: black;
     background: rgba(246, 246, 246, 1);
+    padding-top: 82px;
 }
 
-.line {
-    /* cambiarlo por hr translate */
+hr {
+    width: 145px;
+    transform: translateX(65px);
+    margin-top: 35px;
 }
 
 .container-color3 {
@@ -237,6 +235,8 @@ section:nth-child(3) {
 }
 
 .container3 {
+    margin-top: 50px;
+    margin-bottom: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
